@@ -7,7 +7,7 @@
 		MainSponsor,
 		MainStory
 	} from '../lib/index.js';
-	import { PUBLIC_HYGRAPH_URL } from '$env/static/public';
+	// import { PUBLIC_HYGRAPH_URL } from '$env/static/public';
 	export let data;
 </script>
 
@@ -20,4 +20,4 @@
 <MainSponsor {data} />
 <MainStory {data} />
 
-<p>PUBLIC_HYGRAPH_URL: {PUBLIC_HYGRAPH_URL}</p>
+<!-- <p>PUBLIC_HYGRAPH_URL: {PUBLIC_HYGRAPH_URL}</p> -->
